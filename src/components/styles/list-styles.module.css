@@ -1,0 +1,6 @@
+.list{
+    list-style-type: none;
+    background-color: rgb(243, 243, 243);
+    padding: 50px 0;
+    border-radius: 50px;
+}

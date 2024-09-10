@@ -1,0 +1,91 @@
+.overlay h1{
+    color: #623894;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.overlay{
+    position:fixed;
+    width:100vw;
+    height:100vh;
+    top:0;
+    left:0;
+    right:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.infoPanel {
+    position:relative;
+    background-color: #fff;
+    margin:auto;
+    margin-top:100px;
+    padding: 5%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 60%;
+    height: 60%;
+    text-align: center;
+}
+
+.extraInfoTable{
+    position: relative;
+    /* width:110%; */
+}
+
+.fullInfo{
+    text-align: left;
+    padding-left:20px;
+    margin-top:0px;
+}
+
+.fullInfo h5{
+    font-size:20px;
+    color: #623894;
+    margin-bottom: 5px;
+}
+
+.fullInfo p{
+    margin-top:2px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.languageList{
+    margin:0;
+    font-size: 14px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.closeOverlay{
+    position:absolute;
+    bottom:30px;
+    right:30px;
+    background-color: #623894;
+    color: white;
+    border-style: none;
+    border-radius:10px;
+    width: 30%;
+    padding: 12px 10px 10px 10px;
+    margin:auto;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:20px;
+    cursor: pointer;
+}
+
+.closeOverlay:hover{
+    background-color: #c7a6f0;
+    color:#623894;
+}

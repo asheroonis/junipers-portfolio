@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=LXGW+WenKai+Mono+TC:wght@300;400;700&family=PT+Mono&family=Sedan:ital@0;1&family=Staatliches&display=swap');
+.nav {
+    background-color: #623894;
+    padding:0;
+    overflow:hidden;
+    vertical-align:middle;
+    max-height:60px;
+}
+
+.nav ul{
+    margin: auto;
+}
+
+.nav li{
+    float:left;
+    width:15%;
+    list-style: none;
+}
+
+.navItem{
+    color:white;
+    text-align: center;
+    padding: 20px 16px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    display:block; 
+}
+
+.navItem:hover{
+    background-color: #c7a6f0;
+    color:#623894;
+}
+
+.textLink{
+    color:inherit;
+    text-decoration: inherit;
+}
+
+.logo{
+    float:left;
+    max-height:60px;
+}

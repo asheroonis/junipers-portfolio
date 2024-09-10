@@ -1,0 +1,14 @@
+.footer{
+    position:relative;
+    bottom:0;
+    width:100%;
+    background-color: #623894;
+    text-align: center;
+    color:white;
+    padding: 6px 0px;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}

@@ -1,0 +1,74 @@
+h3{
+    color: #623894;
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+h6{
+    margin:10px 0;
+    color: #623894;
+    font-size:12px;
+}
+
+.leftAligned{
+    text-align: left;
+}
+
+.rightAligned{
+    text-align: right;
+}
+
+.listTable {
+    width:90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding:40px 20px;
+    table-layout: auto;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.infoPreview tr {
+    margin: 10px auto;
+}
+
+.infoPreview {
+    font-size: 20px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imageCell {
+    width: 40%;
+    height: auto;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+.imageCell img{
+    width:100%;
+}
+
+.readMore{
+    background-color: #623894;
+    color: white;
+    border-style: none;
+    border-radius:10px;
+    width: 30%;
+    padding: 12px 10px 10px 10px;
+    margin:auto;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:20px;
+    cursor: pointer;
+}
+
+.readMore:hover{
+    background-color: #c7a6f0;
+    color:#623894;
+}
