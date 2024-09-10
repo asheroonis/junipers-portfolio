@@ -13,7 +13,7 @@ export default function ProjectItem(props){
                     <table className={styles.listTable}>
                         <tr className={styles.infoPreview}>
                             <td className={styles.imageCell}>
-                                <img src={process.env.PUBLIC_URL + '/images' + props.project.previewImageLink}></img>
+                                <img src={process.env.PUBLIC_URL + '/images' + props.project.previewImageLink} alt=""></img>
                             </td>
                             <td>
                                 <h3>{props.project.name}</h3>
@@ -52,7 +52,7 @@ export default function ProjectItem(props){
                                 </div>
                             </td>
                             <td className={styles.imageCell}>
-                                <img src={process.env.PUBLIC_URL + '/images' + props.project.previewImageLink}></img>
+                                <img src={process.env.PUBLIC_URL + '/images' + props.project.previewImageLink} alt=""></img>
                             </td>
                         </tr>
                     </table>

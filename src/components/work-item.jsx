@@ -13,7 +13,7 @@ export default function WorkItem(props){
                     <table className={styles.listTable}>
                         <tr className={styles.infoPreview}>
                             <td className={styles.imageCell}>
-                                <img src={process.env.PUBLIC_URL + '/images' + props.work.previewImageLink}></img>
+                                <img src={process.env.PUBLIC_URL + '/images' + props.work.previewImageLink} alt=""></img>
                             </td>
                             <td>
                                 <h3>{props.work.name}</h3>
@@ -52,7 +52,7 @@ export default function WorkItem(props){
                                 </div>
                             </td>
                             <td className={styles.imageCell}>
-                                <img src={process.env.PUBLIC_URL + '/images' + props.work.previewImageLink}></img>
+                                <img src={process.env.PUBLIC_URL + '/images' + props.work.previewImageLink} alt=""></img>
                             </td>
                         </tr>
                     </table>
