@@ -69,7 +69,7 @@ export const initialWorks = [
             id : 8,
             name : "Juniper's Portfolio",
             previewDescription : "This site, of course! A React app that updates dynamically as data is added to it.",
-            dateCompleted : "August 2024",
+            dateCompleted : "August 2024 - September 2024",
             languagesUsed : "HTML/CSS, JavaScript, ReactJS",
             fullDescription : "Created to showcase the projects I have under my belt already and what I am capable of, this site has been my first main use of React to create a webapp. It is structured based on one app page and then renders components based on user input as necessary. The JavaScript and CSS are also fully dynamic, so I do not need to touch the actual site code at all if I want to update the pages with a new project or add more photos of an existing one - I simply edit one list of projects and it will scale the webpages and adjust any slideshows, etc. accordingly. It is also set up in a way that functions could be easily implemented for the user to update the site from the front-end - however, since it is intended as a static site that showcases some set information, I have left it as only editable from the backend. The files for this site are available for demonstration upon request.",
             displayLeft : true,
