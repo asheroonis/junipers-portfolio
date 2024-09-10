@@ -5,7 +5,7 @@ import { initialWorks } from '../initial-works.js';
 import { useState } from 'react';
 
 function Works() {
-  const [worksList, setWorksList] = useState(initialWorks);
+  const [worksList] = useState(initialWorks);
 
   return (
     <div className={styles.app}>

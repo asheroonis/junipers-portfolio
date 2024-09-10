@@ -5,7 +5,7 @@ import { initialProjects } from '../initial-projects.js';
 import { useState } from 'react';
 
 function Projects() {
-  const [projectsList, setProjectsList] = useState(initialProjects);
+  const [projectsList] = useState(initialProjects);
 
   return (
     <div className={styles.app}>
