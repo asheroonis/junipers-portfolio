@@ -1,28 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&family=PT+Mono&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 
 .app {
   text-align: center;
+  background-image: url("./backgroundImage.png");
+  background-size: cover;
+  min-height: 89vh;
 }
 
 .header {
   text-align: center;
-  color: #623894;
-  font-family: "LXGW WenKai Mono TC", monospace;
-  font-weight: 700;
-  font-size: 20px;
+  color: #ffffff;
+}
+
+.header h1{
+  margin:0;
+  font-family: "Roboto Flex", monospace;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 10vh;
 }
 
 .banner {
   max-width: 100%;
   height: auto;
+  max-height: 70vh;
+}
+
+.pageLogo{
+  height: auto;
+  max-height: 20vh;
+  margin-bottom: 2vh;
 }
 
 .pageBody {
-  width: 90%;
+  width: 90vw;
   margin: auto;
 }
 
@@ -36,16 +50,86 @@
   font-size: 20px;
 }
 
-.specialHeading{
-  color: #623894;
-  font-family: 'Courgette', cursive;
-  font-style: normal;
-  font-weight: 400;
-  font-size:30px;
-  text-align:center;
+.headshot{
+  width: 40vh;
+}
+
+.aboutTable{
+  width: 100%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.headshot td{
+  width: 30vw;
+  vertical-align: center  ;
 }
 
 
+
+.aboutTable td{
+  vertical-align: top;
+}
+
+.aboutBody{
+  width: 70vw;
+  margin: auto;
+}
+
+.aboutBody h2{
+  margin:0;
+  font-family: "Roboto Flex", monospace;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 7vh;
+  color: #ffffff;
+}
+
+.aboutBody p{
+  margin:4vh 2vw 0 2vw;
+  font-family: "Roboto Flex", monospace;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 3vh;
+  color: #ffffff;
+}
+
+.backgroundText{
+  padding-bottom: 4vh;
+}
+
+.contactDetails{
+  width: 100%;
+  margin: 2vh auto auto auto;
+}
+
+.contactLinkCell{
+  width: 58%;
+  text-align: left;
+  color: #ffffff;
+  font-family: "Roboto Flex", monospace;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 3vh;
+}
+
+.contactLinkCell a{
+  color:#ffffff;
+}
+
+.contactLinkCell a:hover{
+  color:#d6c2ff;
+}
+
+.contactIconCell{
+  width: 42%;
+  text-align: right;
+  padding-right: 2vw;
+}
+
+.contactIcon{
+  width: 4vw;
+}
 
 /* .App-logo {
   height: 40vmin;

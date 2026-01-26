@@ -19,11 +19,13 @@ export default function ProjectItem(props){
                                 <h3>{props.project.name}</h3>
                                 <h6>{props.project.dateCompleted}</h6>
                                 <p>{props.project.previewDescription}</p>
+                                <h5>Key Skills Used: {props.project.keySkills}</h5>
                                 <div>
                                     {showMoreInfo ? (
-                                        <Overlay details={props.project} onClose={()=>setShowMoreInfo(false)}/>
+                                        <Overlay details={props.project} onClose={() => setShowMoreInfo(false)}/>
                                     ) : (
-                                        <button className={styles.readMore} onClick={()=>setShowMoreInfo(true)}>Read More</button>
+                                        <button className={styles.readMore} onClick={() => setShowMoreInfo(true)}>Read
+                                            More...</button>
                                     )}
                                 </div>
                             </td>
@@ -43,11 +45,13 @@ export default function ProjectItem(props){
                                 <h3>{props.project.name}</h3>
                                 <h6>{props.project.dateCompleted}</h6>
                                 <p>{props.project.previewDescription}</p>
+                                <h5>Key Skills Used: {props.project.keySkills}</h5>
                                 <div>
                                     {showMoreInfo ? (
-                                        <Overlay details={props.project} onClose={()=>setShowMoreInfo(false)}/>
+                                        <Overlay details={props.project} onClose={() => setShowMoreInfo(false)}/>
                                     ) : (
-                                        <button className={styles.readMore} onClick={()=>setShowMoreInfo(true)}>Read More</button>
+                                        <button className={styles.readMore} onClick={() => setShowMoreInfo(true)}>Read
+                                            More...</button>
                                     )}
                                 </div>
                             </td>

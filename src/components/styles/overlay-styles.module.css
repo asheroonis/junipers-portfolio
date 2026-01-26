@@ -1,8 +1,10 @@
 .overlay h1{
-    color: #623894;
-    font-family: "LXGW WenKai Mono TC", monospace;
-    font-weight: 700;
-    font-size: 40px;
+    color: #ffffff;
+    font-family: "Roboto Flex", monospace;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 5vw;
+    margin: 0;
 }
 
 .overlay{
@@ -20,22 +22,19 @@
 
 .infoPanel {
     position:relative;
-    background-color: #fff;
-    margin:auto;
-    margin-top:100px;
-    padding: 5%;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    background-color: #403b49;
+    margin: 100px auto auto auto;
+    padding: 50px 5% 50px 5%;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    width: 60%;
-    height: 60%;
+    width: 60vw;
+    min-height: 60vh;
     text-align: center;
 }
 
 .extraInfoTable{
+    padding-top: 20px;
     position: relative;
-    /* width:110%; */
 }
 
 .fullInfo{
@@ -44,40 +43,43 @@
     margin-top:0px;
 }
 
+.fullInfo h6{
+    color: #ffffff;
+    font-family: "Roboto Flex", monospace;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vh;
+}
+
 .fullInfo h5{
-    font-size:20px;
-    color: #623894;
-    margin-bottom: 5px;
+    margin:10px 0;
+    color: #ffffff;
+    font-family: "Roboto Flex", monospace;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2vh;
 }
 
 .fullInfo p{
-    margin-top:2px;
+    margin:2px auto 10px auto;
     font-family: "Titillium Web", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 12px;
+    font-size: 2vh;
     text-align: justify;
-}
-
-.languageList{
-    margin:0;
-    font-size: 14px;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    color: #ffffff;
 }
 
 .closeOverlay{
-    position:absolute;
-    bottom:30px;
-    right:30px;
-    background-color: #623894;
-    color: white;
+    position:relative;
+    background-color: #292929;
+    color: #999999;
+    left: 35%;
     border-style: none;
     border-radius:10px;
     width: 30%;
     padding: 12px 10px 10px 10px;
-    margin:auto;
+    margin:10px auto;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -86,6 +88,6 @@
 }
 
 .closeOverlay:hover{
-    background-color: #c7a6f0;
-    color:#623894;
+    background-color: #5f576c;
+    color:#ffffff;
 }

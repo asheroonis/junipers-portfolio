@@ -1,15 +1,28 @@
 h3{
-    color: #623894;
-    font-family: "LXGW WenKai Mono TC", monospace;
-    font-weight: 700;
-    font-size: 30px;
-    margin: 10px 0;
+    color: #ffffff;
+    font-family: "Roboto Flex", monospace;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 5vh;
+    margin: 0;
+}
+
+h5{
+    margin:10px 0;
+    color: #ffffff;
+    font-family: "Roboto Flex", monospace;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2vh;
 }
 
 h6{
-    margin:10px 0;
-    color: #623894;
-    font-size:12px;
+    color: #999999;
+    font-family: "Roboto Flex", monospace;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vh;
+    margin: 0;
 }
 
 .leftAligned{
@@ -26,19 +39,17 @@ h6{
     padding-right: 20px;
     padding:40px 20px;
     table-layout: auto;
-    background-color: white;
-    margin: 10px auto;
+    background-color: #151515;
+    margin: 20px auto;
     border-radius: 20px;
 }
 
-.infoPreview tr {
-    margin: 10px auto;
-}
-
-.infoPreview {
-    font-size: 20px;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 400;
+.infoPreview p{
+    margin: 10px 0 0 0;
+    color: #999999;
+    font-size: 2.5vh;
+    font-family: "Roboto Flex", monospace;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -54,21 +65,21 @@ h6{
 }
 
 .readMore{
-    background-color: #623894;
-    color: white;
+    background-color: #292929;
+    color: #999999;
     border-style: none;
-    border-radius:10px;
-    width: 30%;
-    padding: 12px 10px 10px 10px;
+    border-radius:5px;
+    width: 20%;
+    padding: 7px 10px 7px 10px;
     margin:auto;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 600;
+    font-size: 2vh;
+    font-family: "Roboto Flex", monospace;
+    font-weight: 200;
     font-style: normal;
-    font-size:20px;
     cursor: pointer;
 }
 
 .readMore:hover{
-    background-color: #c7a6f0;
-    color:#623894;
+    background-color: #5f576c;
+    color:#ffffff;
 }

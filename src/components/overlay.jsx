@@ -12,24 +12,24 @@ export default function Overlay(props){
     return <div className={styles.overlay}>
         <div className={styles.infoPanel}>
             <h1>{props.details.name}</h1>
+            <h5>{props.details.dateCompleted}</h5>
             <table className={styles.extraInfoTable}>
                 <tr>
                     <td>
                         <Slideshow images={props.details.fullImageLinks}/>
                     </td>
                     <td className={styles.fullInfo}>
-                        <h5>{props.details.dateCompleted}</h5>
-                        <h6 className={styles.languageList}>Languages Used: {props.details.languagesUsed}</h6>
+                        <h6>Key Skills Used: {props.details.keySkills}</h6>
                         <p>{props.details.fullDescription}</p>
                     </td>
-                    
+
                 </tr>
             </table>
-                
-                {/* props.details.fullImageLinks.map((images) => (
+
+            {/* props.details.fullImageLinks.map((images) => (
                     <Slideshow images={props.details.fullImageLinks}/>
                 )) */}
-                
+
             <button className={styles.closeOverlay} onClick={handleClose}>Close</button>
         </div>
     </div>

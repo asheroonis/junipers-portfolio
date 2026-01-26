@@ -1,26 +1,38 @@
 import styles from '../App.module.css';
+import logo from "../nameLogo.png";
+import linkedinLogo from "../linkedin-icon.png";
+import emailLogo from "../email-icon.png";
 
 function Contact() {
   return (
     <div className={styles.app}>
-      <header className={styles.header}>
-        <h1>
-          Contact Me
-        </h1>
-      </header>
-      <p className={styles.specialHeading}>Like what you've seen?</p>
-      <main className={styles.pageBody}>
-        <div className={styles.bodyText}>
-          <p><em>I'd love to hear from you!</em></p>
-          <p>I can primarily be reached via my email:<br/><em>juniperajrobinson@gmail.com</em></p>
-          <p>I always aim to respond to any emails within 1-2 days.</p>
-          <p>If you'd like to reach me faster, feel free to contact me via my phone number! If you came to this site from my CV, it will be displayed there.</p>
-          <br/>
-        </div>
+        <header className={styles.header}>
+            <img src={logo} className={styles.pageLogo} alt="Juniper's Name Logo Small"/>
+            <h1>
+                Contact Me
+            </h1>
+        </header>
+      <main className={styles.aboutBody}>
+          <p><em>I welcome all enquiries in my inbox, feel free to reach out.</em></p>
+          <table className={styles.contactDetails}>
+              <tr>
+                  <td className={styles.contactIconCell}>
+                      <img src={emailLogo} alt="Email Icon" className={styles.contactIcon}/>
+                  </td>
+                  <td className={styles.contactLinkCell}>
+                      juniperajrobinson@gmail.com
+                  </td>
+              </tr>
+              <tr>
+                  <td className={styles.contactIconCell}>
+                      <img src={linkedinLogo} alt="Email Icon" className={styles.contactIcon}/>
+                  </td>
+                  <td className={styles.contactLinkCell}>
+                      <a href={"https://www.linkedin.com/in/juniper-av-robinson"} target={"_blank"} rel={"noreferrer"}>linkedin.com/in/juniper-av-robinson</a>
+                  </td>
+              </tr>
+          </table>
       </main>
-      <p className={styles.specialHeading}>That's all from me!</p>
-      <p className={styles.specialHeading}>It's great to meet you, I hope to see you soon!</p>
-      <p className={styles.specialHeading}>-June</p>
     </div>
   );
 }

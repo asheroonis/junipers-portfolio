@@ -1,14 +1,15 @@
 .footer{
-    position:relative;
+    position: relative;
     bottom:0;
     width:100%;
-    background-color: #623894;
+    background-color: #191919;
     text-align: center;
+    font-family: "Roboto Flex", monospace;
+    font-style: normal;
+    font-weight: 200;
     color:white;
     padding: 6px 0px;
     font-size: 10px;
     text-decoration: none;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+    height: 2vh;
 }
